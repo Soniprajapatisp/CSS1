@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    height: 100vh;
+    width: 100wh;
+}
+.left, .right{
+    display: inline-block;
+    height: 100%;
+    width: 50%;
+    border: 1px solid black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.left{
+    background-image:url(https://static.nike.com/a/images/f_auto,cs_srgb/w_1536,c_limit/cb28c551-b85b-479f-8fc3-40ad4e7c9ca4/nike-just-do-it.jpg)
+}
+.right{
+    background-image: url(https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/h_382,c_limit/39412611-0af5-4770-8c2e-ef5c23bc6a3d/nike-just-do-it.jpg);
+}
+p{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: larger;
+}
